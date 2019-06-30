@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="266.0" y="0.0">Functions</node>
+    <node x="156.7232142857143" y="256.0">PostfixFuncs</node>
+    <node x="0.0" y="66.0">PostfixFuncsInterface</node>
+    <node x="311.125" y="469.0">CalculatorGui</node>
+    <node x="302.625" y="570.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="PostfixFuncs" target="Functions">
+      <point x="0.0" y="-81.5" />
+      <point x="279.72321428571433" y="231.0" />
+      <point x="300.625" y="231.0" />
+      <point x="-103.875" y="103.0" />
+    </edge>
+    <edge source="CalculatorGui" target="PostfixFuncs">
+      <point x="-19.0" y="-25.5" />
+      <point x="368.125" y="449.0" />
+      <point x="341.22321428571433" y="449.0" />
+      <point x="61.5" y="81.5" />
+    </edge>
+    <edge source="Main" target="CalculatorGui">
+      <point x="-42.25" y="-25.5" />
+      <point x="344.875" y="545.0" />
+      <point x="349.125" y="545.0" />
+      <point x="-38.0" y="25.5" />
+    </edge>
+    <edge source="CalculatorGui" target="Functions">
+      <point x="19.0" y="-25.5" />
+      <point x="406.125" y="439.0" />
+      <point x="441.41071428571433" y="439.0" />
+      <point x="441.41071428571433" y="231.0" />
+      <point x="439.125" y="231.0" />
+      <point x="34.625" y="103.0" />
+    </edge>
+    <edge source="PostfixFuncs" target="PostfixFuncsInterface">
+      <point x="-82.0" y="-81.5" />
+      <point x="197.7232142857143" y="231.0" />
+      <point x="123.0" y="231.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8689320388349514" x="272.0" y="257.27932960893855" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>protected</VISIBILITY>
+</Diagram>
+
